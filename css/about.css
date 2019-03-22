@@ -155,22 +155,42 @@ h1{
     padding-left: 70px;
 }
 
+@media(min-width:992px).col-md-6{
+    width:50%;
+}
 
 #widgets{
     background: #2e2d2e;
-    padding:  0 58px 80px;
+    padding:  0 0px 90px;
     position: relative;
     color:#a6a8ab;
 }
 
+
+
+@media screen and (max-width: 767px)
+#widgets .btn-start {
+    max-width: 300px;
+    font-size: 20px;
+}
 #widgets .row .btn-start{
-    width: 423px;
-    height: 94px;
+    display: block;
     top: -48px;
-    line-height: 94px;
+    left: 0;
+    right: 0;
+    padding: 0;
+    border: 0;
+    margin: auto;
+    width: 379px;
+    height: 85px;
+    line-height: 85px;
     font-size: 26px;
-    margin-left: 375px;
-    margin-top: -50px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: 300;
+    position: absolute;
+   
+  
     
     
 }
@@ -179,9 +199,16 @@ h1{
     padding: 40px 0;
 }
 
+#widgets h3{
+    padding: 0px 0 6px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #58595b;
+}
+
 
 #widgets .col{
-       float: left;
+    float: left;
     text-shadow: 1px 1px #000;
     width: 25%;
     padding-left: 2px;
@@ -196,12 +223,18 @@ h1{
 
 
 #widgets li{
-      padding: 0 ;
-    list-style: none;
-    margin: 0;
+   
+    display: list-item;
+    text-align: -webkit-match-parent;
+    box-sizing: border-box;
 }
 
-
+#widgets li a {
+    font-size: 16px;
+    font-weight: 400;
+    color: #a6a8ab;
+    text-decoration: none;
+}
 
 #footer{
     clear: both;
@@ -238,7 +271,32 @@ h1{
 }
 
 
+@media screen and (max-width: 479px)
+#widgets .col {
+    width: 48%;
+    padding: 0 2%;
+}
 
 
+
+
+
+@media screen and (max-width: 767px)
+#widgets .cols {
+    font-size: 0;
+    padding: 0 0 40px;
+}
+
+
+
+@media screen and (max-width: 767px)
+#widgets .col {
+    float: none;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 20px;
+    line-height: 22px;
+  
+}
 
 
