@@ -204,7 +204,8 @@ h1{
     font-size: 20px;
     font-weight: 300;
     display: block;
-    margin: 10px 0;
+   margin-top: 30px;
+    
     
 }
 
@@ -233,6 +234,7 @@ h1{
 
 #login .btn.btn-primary {
     margin-top: 10px;
+    margin-right: 10px;
     width: 131px;
     height: 70px;
     color: #fff;
